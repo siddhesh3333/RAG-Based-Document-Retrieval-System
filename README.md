@@ -115,32 +115,29 @@ Open it in your browser.
 
 🖥️ How to Use
 Step 1
-
 Click:
-
 📄 Create Vector DB
-
 This will:
-
 Load PDFs
 Split documents
 Create embeddings
 Store vectors in FAISS
+
+
 Step 2
-
 Enter your question in:
-
 💬 Ask a Question From Your Documents
-
 Example
 What is the population growth mentioned in the report?
+
+
 Step 3
-
 View:
-
 AI-generated answer
 Retrieved document chunks
 Response time
+
+
 📦 Requirements Example
 requirements.txt
 streamlit
@@ -155,37 +152,33 @@ sentence-transformers
 pypdf
 python-dotenv
 huggingface-hub
+
+
 📄 .gitignore
 .env
 venv/
-__pycache__/
+
+
 🛠️ Common Errors & Fixes
+
 1. ModuleNotFoundError
+Run: pip install -r requirements.txt
 
-Run:
-
-pip install -r requirements.txt
 2. Streamlit Not Found
-
 Install Streamlit:
-
 pip install streamlit
+
 3. Groq Model Decommissioned
-
 Replace old model:
-
 model_name="Llama3-8b-8192"
-
 with:
-
 model_name="llama-3.1-8b-instant"
+
 4. PDF Folder Not Found
-
 Ensure:
-
 ./your_data
-
 exists and contains PDFs.
+
 
 🧠 Technologies Used
 Technology	Purpose
@@ -195,13 +188,10 @@ LangChain	RAG Pipeline
 FAISS	Vector Database
 HuggingFace	Embeddings
 Groq	LLM Inference
-👨‍💻 Author
 
-Developed by Siddhesh.
 
-⭐ If You Like This Project
-
-Star the repository on GitHub and contribute improvements
+👨‍💻 Author Developed by Siddhesh.
+⭐ If You Like This Project  Star the repository on GitHub and contribute improvements
 
 
 
