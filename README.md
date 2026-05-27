@@ -51,11 +51,15 @@ Internet connection
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
+
+
 2️⃣ Create Virtual Environment
 Windows
 python -m venv venv
 Linux / Mac
 python3 -m venv venv
+
+
 3️⃣ Activate Virtual Environment
 Windows PowerShell
 .\venv\Scripts\activate
@@ -67,49 +71,47 @@ source venv/bin/activate
 After activation, the terminal should show:
 
 (venv)
+
+
 4️⃣ Install Dependencies
-
 Install all required packages:
-
 pip install -r requirements.txt
+
+
 5️⃣ Setup API Keys
-
 Create a .env file in the project root directory and add your API keys:
-
 GROQ_API_KEY=your_groq_api_key
 GOOGLE_API_KEY=your_google_api_key
 🔑 Get API Keys
 Groq API Key
-
 Create an account and generate a key from:
-
 Groq Console
 Google API Key
-
 Generate a Gemini API key from:
-
 Google AI Studio
+
+
+
 6️⃣ Add PDF Files
-
 Place your PDF files inside:
-
 your_data/
 Example
 your_data/
 ├── document1.pdf
 ├── document2.pdf
+
+
 7️⃣ Run the Application
-
 Start the Streamlit app:
-
 streamlit run app.py
+
+
 8️⃣ Open in Browser
-
 After running, Streamlit will provide URLs like:
-
 Local URL: http://localhost:8501
-
 Open it in your browser.
+
+
 
 🖥️ How to Use
 Step 1
