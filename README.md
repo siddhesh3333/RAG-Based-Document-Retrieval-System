@@ -190,7 +190,6 @@ HuggingFace	Embeddings
 Groq	LLM Inference
 
 
-👨‍💻 Author Developed by Siddhesh.
 ⭐ If You Like This Project  Star the repository on GitHub and contribute improvements
 
 
